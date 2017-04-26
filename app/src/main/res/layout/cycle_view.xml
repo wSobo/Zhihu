@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.sobo.zhihu.widget.CycleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_storie"
+    android:layout_width="wrap_content"
+    android:layout_height="220dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="4dp"
+    >
+</com.example.sobo.zhihu.widget.CycleView>

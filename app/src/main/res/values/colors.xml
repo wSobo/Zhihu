@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#b2ff59</color>
+
+
+    <color name="text_color">#f6000000</color>
+    <color name="text_source">#732b2828</color>
+
+    <color name="nev_item">#ffffff</color>
+
+    <color name="content_placeholder">#ffe0e0e0</color>
+
+    <color name="blue">#2196F3</color>
+
+
+</resources>

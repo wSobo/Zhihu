@@ -1,0 +1,51 @@
+<!--<android.support.v4.widget.SwipeRefreshLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/swiperefresh"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:scrollbars="vertical">-->
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.sobo.zhihu.fragment.HomeFragment">
+
+            <!--<com.example.sobo.zhihu.widget.CycleView-->
+                <!--android:id="@+id/top_storie"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="220dp"-->
+                <!--&gt;-->
+
+            <!--</com.example.sobo.zhihu.widget.CycleView>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:elevation="1dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbars="vertical"
+                />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateTint="?android:colorAccent"
+                android:indeterminateTintMode="src_in"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+<!--</android.support.v4.widget.SwipeRefreshLayout>-->
